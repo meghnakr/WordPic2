@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
@@ -20,7 +21,27 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func clearDatabase(_ sender: Any) {
+        let alert = UIAlertController(title: "Clear database?", message: "Are you sure you want to delete all images and words?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {action in
+            let config = Realm.Configuration(
+                schemaVersion: 1,
+                migrationBlock: {migration, oldSchemaVersion in
+                    if (oldSchemaVersion < 1) {
+                        //do nothing
+                    }
+                })
+            Realm.Configuration.defaultConfiguration = config
+            let realm = try! Realm()
+            realm.beginWrite()
+            realm.deleteAll()
+            try! realm.commitWrite()
+        }))
+        alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true)
+    }
+    
     @IBAction func onTap(_ sender: Any) {
         print("Hello")
         

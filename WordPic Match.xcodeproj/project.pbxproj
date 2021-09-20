@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D294ABEBCDCF3E0EC1ACEA5 /* Pods_WordPic_MatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FEB35ED2E893C7EB8F6140 /* Pods_WordPic_MatchTests.framework */; };
+		0F2A70A61DC263169325681D /* Pods_WordPic_Match_WordPic_MatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1B0DF201FBB133171F176 /* Pods_WordPic_Match_WordPic_MatchUITests.framework */; };
 		285DB19223CFD863000D9753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DB19123CFD863000D9753 /* AppDelegate.swift */; };
 		285DB19423CFD863000D9753 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DB19323CFD863000D9753 /* SceneDelegate.swift */; };
-		285DB19623CFD863000D9753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DB19523CFD863000D9753 /* ViewController.swift */; };
+		285DB19623CFD863000D9753 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DB19523CFD863000D9753 /* HomeViewController.swift */; };
 		285DB19923CFD863000D9753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285DB19723CFD863000D9753 /* Main.storyboard */; };
 		285DB19B23CFD864000D9753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285DB19A23CFD864000D9753 /* Assets.xcassets */; };
 		285DB19E23CFD864000D9753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285DB19C23CFD864000D9753 /* LaunchScreen.storyboard */; };
 		285DB1A923CFD865000D9753 /* TipMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DB1A823CFD865000D9753 /* TipMasterTests.swift */; };
 		285DB1B423CFD865000D9753 /* TipMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DB1B323CFD865000D9753 /* TipMasterUITests.swift */; };
+		8DF7C2BD26F6A75C0039D4F0 /* AddPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7C2BC26F6A75C0039D4F0 /* AddPhotosViewController.swift */; };
+		8DF7C2C226F6A7730039D4F0 /* TestYourselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7C2C126F6A7730039D4F0 /* TestYourselfViewController.swift */; };
+		DF5B2E2E4758401544C34374 /* Pods_WordPic_Match.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070B1DD8FC2D6F4C654FF33C /* Pods_WordPic_Match.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +40,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		285DB18E23CFD863000D9753 /* TipMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		070B1DD8FC2D6F4C654FF33C /* Pods_WordPic_Match.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordPic_Match.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CA2FA265ACFEB4A648C686 /* Pods-TipMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMasterTests.release.xcconfig"; path = "Target Support Files/Pods-TipMasterTests/Pods-TipMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		21A4F91062FEA8A9EBF41668 /* Pods-TipMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMaster.debug.xcconfig"; path = "Target Support Files/Pods-TipMaster/Pods-TipMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		21FEB35ED2E893C7EB8F6140 /* Pods_WordPic_MatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordPic_MatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		285DB18E23CFD863000D9753 /* WordPic Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordPic Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		285DB19123CFD863000D9753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		285DB19323CFD863000D9753 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		285DB19523CFD863000D9753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		285DB19523CFD863000D9753 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		285DB19823CFD863000D9753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		285DB19A23CFD864000D9753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285DB19D23CFD864000D9753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285DB19F23CFD864000D9753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		285DB1A423CFD865000D9753 /* TipMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285DB1A423CFD865000D9753 /* WordPic MatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WordPic MatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		285DB1A823CFD865000D9753 /* TipMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipMasterTests.swift; sourceTree = "<group>"; };
 		285DB1AA23CFD865000D9753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		285DB1AF23CFD865000D9753 /* TipMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285DB1AF23CFD865000D9753 /* WordPic MatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WordPic MatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		285DB1B323CFD865000D9753 /* TipMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipMasterUITests.swift; sourceTree = "<group>"; };
 		285DB1B523CFD865000D9753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7C5DA9E10A256379E594A5 /* Pods-WordPic Match.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPic Match.debug.xcconfig"; path = "Target Support Files/Pods-WordPic Match/Pods-WordPic Match.debug.xcconfig"; sourceTree = "<group>"; };
+		48ECDF606129108578BFF898 /* Pods-WordPic MatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPic MatchTests.debug.xcconfig"; path = "Target Support Files/Pods-WordPic MatchTests/Pods-WordPic MatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B77C19722F445B856EBB419 /* Pods-TipMaster-TipMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMaster-TipMasterUITests.release.xcconfig"; path = "Target Support Files/Pods-TipMaster-TipMasterUITests/Pods-TipMaster-TipMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DF671EC336461F086E60733 /* Pods-WordPic Match.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPic Match.release.xcconfig"; path = "Target Support Files/Pods-WordPic Match/Pods-WordPic Match.release.xcconfig"; sourceTree = "<group>"; };
+		65DCD1DE3782983E497C38D9 /* Pods-WordPic Match-WordPic MatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPic Match-WordPic MatchUITests.release.xcconfig"; path = "Target Support Files/Pods-WordPic Match-WordPic MatchUITests/Pods-WordPic Match-WordPic MatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F2FEF3872AAA676D07ADBD5 /* Pods-WordPic MatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPic MatchTests.release.xcconfig"; path = "Target Support Files/Pods-WordPic MatchTests/Pods-WordPic MatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		73D1CB53A793F507DFC05F81 /* Pods-TipMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMasterTests.debug.xcconfig"; path = "Target Support Files/Pods-TipMasterTests/Pods-TipMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77F854BE0EB1C072F86B36BD /* Pods-WordPic Match-WordPic MatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPic Match-WordPic MatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-WordPic Match-WordPic MatchUITests/Pods-WordPic Match-WordPic MatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE1B0DF201FBB133171F176 /* Pods_WordPic_Match_WordPic_MatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordPic_Match_WordPic_MatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF7C2BC26F6A75C0039D4F0 /* AddPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotosViewController.swift; sourceTree = "<group>"; };
+		8DF7C2C126F6A7730039D4F0 /* TestYourselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestYourselfViewController.swift; sourceTree = "<group>"; };
+		B9B16AAA19AE4DC2EFADF5B1 /* Pods-TipMaster-TipMasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMaster-TipMasterUITests.debug.xcconfig"; path = "Target Support Files/Pods-TipMaster-TipMasterUITests/Pods-TipMaster-TipMasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F581DA70E4A07CD81A9967CC /* Pods-TipMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMaster.release.xcconfig"; path = "Target Support Files/Pods-TipMaster/Pods-TipMaster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5B2E2E4758401544C34374 /* Pods_WordPic_Match.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D294ABEBCDCF3E0EC1ACEA5 /* Pods_WordPic_MatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2A70A61DC263169325681D /* Pods_WordPic_Match_WordPic_MatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FC393A56CC7ADD0405C6C2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070B1DD8FC2D6F4C654FF33C /* Pods_WordPic_Match.framework */,
+				7AE1B0DF201FBB133171F176 /* Pods_WordPic_Match_WordPic_MatchUITests.framework */,
+				21FEB35ED2E893C7EB8F6140 /* Pods_WordPic_MatchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		285DB18523CFD863000D9753 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +118,17 @@
 				285DB1A723CFD865000D9753 /* TipMasterTests */,
 				285DB1B223CFD865000D9753 /* TipMasterUITests */,
 				285DB18F23CFD863000D9753 /* Products */,
+				779577884BF1AF837564B987 /* Pods */,
+				0FC393A56CC7ADD0405C6C2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		285DB18F23CFD863000D9753 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				285DB18E23CFD863000D9753 /* TipMaster.app */,
-				285DB1A423CFD865000D9753 /* TipMasterTests.xctest */,
-				285DB1AF23CFD865000D9753 /* TipMasterUITests.xctest */,
+				285DB18E23CFD863000D9753 /* WordPic Match.app */,
+				285DB1A423CFD865000D9753 /* WordPic MatchTests.xctest */,
+				285DB1AF23CFD865000D9753 /* WordPic MatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +138,13 @@
 			children = (
 				285DB19123CFD863000D9753 /* AppDelegate.swift */,
 				285DB19323CFD863000D9753 /* SceneDelegate.swift */,
-				285DB19523CFD863000D9753 /* ViewController.swift */,
+				285DB19523CFD863000D9753 /* HomeViewController.swift */,
 				285DB19723CFD863000D9753 /* Main.storyboard */,
 				285DB19A23CFD864000D9753 /* Assets.xcassets */,
 				285DB19C23CFD864000D9753 /* LaunchScreen.storyboard */,
 				285DB19F23CFD864000D9753 /* Info.plist */,
+				8DF7C2BC26F6A75C0039D4F0 /* AddPhotosViewController.swift */,
+				8DF7C2C126F6A7730039D4F0 /* TestYourselfViewController.swift */,
 			);
 			path = TipMaster;
 			sourceTree = "<group>";
@@ -128,30 +167,52 @@
 			path = TipMasterUITests;
 			sourceTree = "<group>";
 		};
+		779577884BF1AF837564B987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21A4F91062FEA8A9EBF41668 /* Pods-TipMaster.debug.xcconfig */,
+				F581DA70E4A07CD81A9967CC /* Pods-TipMaster.release.xcconfig */,
+				B9B16AAA19AE4DC2EFADF5B1 /* Pods-TipMaster-TipMasterUITests.debug.xcconfig */,
+				4B77C19722F445B856EBB419 /* Pods-TipMaster-TipMasterUITests.release.xcconfig */,
+				73D1CB53A793F507DFC05F81 /* Pods-TipMasterTests.debug.xcconfig */,
+				18CA2FA265ACFEB4A648C686 /* Pods-TipMasterTests.release.xcconfig */,
+				2D7C5DA9E10A256379E594A5 /* Pods-WordPic Match.debug.xcconfig */,
+				5DF671EC336461F086E60733 /* Pods-WordPic Match.release.xcconfig */,
+				77F854BE0EB1C072F86B36BD /* Pods-WordPic Match-WordPic MatchUITests.debug.xcconfig */,
+				65DCD1DE3782983E497C38D9 /* Pods-WordPic Match-WordPic MatchUITests.release.xcconfig */,
+				48ECDF606129108578BFF898 /* Pods-WordPic MatchTests.debug.xcconfig */,
+				6F2FEF3872AAA676D07ADBD5 /* Pods-WordPic MatchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		285DB18D23CFD863000D9753 /* TipMaster */ = {
+		285DB18D23CFD863000D9753 /* WordPic Match */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 285DB1B823CFD865000D9753 /* Build configuration list for PBXNativeTarget "TipMaster" */;
+			buildConfigurationList = 285DB1B823CFD865000D9753 /* Build configuration list for PBXNativeTarget "WordPic Match" */;
 			buildPhases = (
+				A3377C17EF608C3AF756DE7B /* [CP] Check Pods Manifest.lock */,
 				285DB18A23CFD863000D9753 /* Sources */,
 				285DB18B23CFD863000D9753 /* Frameworks */,
 				285DB18C23CFD863000D9753 /* Resources */,
+				5FCBB0DEA1D0D32383E05309 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TipMaster;
+			name = "WordPic Match";
 			productName = TipMaster;
-			productReference = 285DB18E23CFD863000D9753 /* TipMaster.app */;
+			productReference = 285DB18E23CFD863000D9753 /* WordPic Match.app */;
 			productType = "com.apple.product-type.application";
 		};
-		285DB1A323CFD865000D9753 /* TipMasterTests */ = {
+		285DB1A323CFD865000D9753 /* WordPic MatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 285DB1BB23CFD865000D9753 /* Build configuration list for PBXNativeTarget "TipMasterTests" */;
+			buildConfigurationList = 285DB1BB23CFD865000D9753 /* Build configuration list for PBXNativeTarget "WordPic MatchTests" */;
 			buildPhases = (
+				4961A06A808988AF37A1C505 /* [CP] Check Pods Manifest.lock */,
 				285DB1A023CFD865000D9753 /* Sources */,
 				285DB1A123CFD865000D9753 /* Frameworks */,
 				285DB1A223CFD865000D9753 /* Resources */,
@@ -161,27 +222,29 @@
 			dependencies = (
 				285DB1A623CFD865000D9753 /* PBXTargetDependency */,
 			);
-			name = TipMasterTests;
+			name = "WordPic MatchTests";
 			productName = TipMasterTests;
-			productReference = 285DB1A423CFD865000D9753 /* TipMasterTests.xctest */;
+			productReference = 285DB1A423CFD865000D9753 /* WordPic MatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		285DB1AE23CFD865000D9753 /* TipMasterUITests */ = {
+		285DB1AE23CFD865000D9753 /* WordPic MatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 285DB1BE23CFD865000D9753 /* Build configuration list for PBXNativeTarget "TipMasterUITests" */;
+			buildConfigurationList = 285DB1BE23CFD865000D9753 /* Build configuration list for PBXNativeTarget "WordPic MatchUITests" */;
 			buildPhases = (
+				698CDFBD14BE9711DEA9522B /* [CP] Check Pods Manifest.lock */,
 				285DB1AB23CFD865000D9753 /* Sources */,
 				285DB1AC23CFD865000D9753 /* Frameworks */,
 				285DB1AD23CFD865000D9753 /* Resources */,
+				BACED9658F4D67CD2CAC784D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				285DB1B123CFD865000D9753 /* PBXTargetDependency */,
 			);
-			name = TipMasterUITests;
+			name = "WordPic MatchUITests";
 			productName = TipMasterUITests;
-			productReference = 285DB1AF23CFD865000D9753 /* TipMasterUITests.xctest */;
+			productReference = 285DB1AF23CFD865000D9753 /* WordPic MatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 285DB18923CFD863000D9753 /* Build configuration list for PBXProject "TipMaster" */;
+			buildConfigurationList = 285DB18923CFD863000D9753 /* Build configuration list for PBXProject "WordPic Match" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				285DB18D23CFD863000D9753 /* TipMaster */,
-				285DB1A323CFD865000D9753 /* TipMasterTests */,
-				285DB1AE23CFD865000D9753 /* TipMasterUITests */,
+				285DB18D23CFD863000D9753 /* WordPic Match */,
+				285DB1A323CFD865000D9753 /* WordPic MatchTests */,
+				285DB1AE23CFD865000D9753 /* WordPic MatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,14 +317,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4961A06A808988AF37A1C505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordPic MatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCBB0DEA1D0D32383E05309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordPic Match/Pods-WordPic Match-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordPic Match/Pods-WordPic Match-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordPic Match/Pods-WordPic Match-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698CDFBD14BE9711DEA9522B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordPic Match-WordPic MatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3377C17EF608C3AF756DE7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordPic Match-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACED9658F4D67CD2CAC784D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordPic Match-WordPic MatchUITests/Pods-WordPic Match-WordPic MatchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordPic Match-WordPic MatchUITests/Pods-WordPic Match-WordPic MatchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordPic Match-WordPic MatchUITests/Pods-WordPic Match-WordPic MatchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		285DB18A23CFD863000D9753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285DB19623CFD863000D9753 /* ViewController.swift in Sources */,
+				285DB19623CFD863000D9753 /* HomeViewController.swift in Sources */,
+				8DF7C2BD26F6A75C0039D4F0 /* AddPhotosViewController.swift in Sources */,
 				285DB19223CFD863000D9753 /* AppDelegate.swift in Sources */,
 				285DB19423CFD863000D9753 /* SceneDelegate.swift in Sources */,
+				8DF7C2C226F6A7730039D4F0 /* TestYourselfViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +454,12 @@
 /* Begin PBXTargetDependency section */
 		285DB1A623CFD865000D9753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 285DB18D23CFD863000D9753 /* TipMaster */;
+			target = 285DB18D23CFD863000D9753 /* WordPic Match */;
 			targetProxy = 285DB1A523CFD865000D9753 /* PBXContainerItemProxy */;
 		};
 		285DB1B123CFD865000D9753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 285DB18D23CFD863000D9753 /* TipMaster */;
+			target = 285DB18D23CFD863000D9753 /* WordPic Match */;
 			targetProxy = 285DB1B023CFD865000D9753 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,6 +600,7 @@
 		};
 		285DB1B923CFD865000D9753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7C5DA9E10A256379E594A5 /* Pods-WordPic Match.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +618,7 @@
 		};
 		285DB1BA23CFD865000D9753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF671EC336461F086E60733 /* Pods-WordPic Match.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +636,7 @@
 		};
 		285DB1BC23CFD865000D9753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48ECDF606129108578BFF898 /* Pods-WordPic MatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,12 +652,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMaster.app/TipMaster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPic Match.app/WordPic Match";
 			};
 			name = Debug;
 		};
 		285DB1BD23CFD865000D9753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2FEF3872AAA676D07ADBD5 /* Pods-WordPic MatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,12 +674,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMaster.app/TipMaster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPic Match.app/WordPic Match";
 			};
 			name = Release;
 		};
 		285DB1BF23CFD865000D9753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F854BE0EB1C072F86B36BD /* Pods-WordPic Match-WordPic MatchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +700,7 @@
 		};
 		285DB1C023CFD865000D9753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DCD1DE3782983E497C38D9 /* Pods-WordPic Match-WordPic MatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,7 +721,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		285DB18923CFD863000D9753 /* Build configuration list for PBXProject "TipMaster" */ = {
+		285DB18923CFD863000D9753 /* Build configuration list for PBXProject "WordPic Match" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				285DB1B623CFD865000D9753 /* Debug */,
@@ -556,7 +730,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		285DB1B823CFD865000D9753 /* Build configuration list for PBXNativeTarget "TipMaster" */ = {
+		285DB1B823CFD865000D9753 /* Build configuration list for PBXNativeTarget "WordPic Match" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				285DB1B923CFD865000D9753 /* Debug */,
@@ -565,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		285DB1BB23CFD865000D9753 /* Build configuration list for PBXNativeTarget "TipMasterTests" */ = {
+		285DB1BB23CFD865000D9753 /* Build configuration list for PBXNativeTarget "WordPic MatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				285DB1BC23CFD865000D9753 /* Debug */,
@@ -574,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		285DB1BE23CFD865000D9753 /* Build configuration list for PBXNativeTarget "TipMasterUITests" */ = {
+		285DB1BE23CFD865000D9753 /* Build configuration list for PBXNativeTarget "WordPic MatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				285DB1BF23CFD865000D9753 /* Debug */,
